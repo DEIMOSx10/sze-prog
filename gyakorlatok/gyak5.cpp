@@ -34,7 +34,7 @@ Olvasson be egy hételemű tömböt!
 Írassa ki a képernyőre azon szomszédos elemeket, amelyekre igaz, hogy az első nagyobb a másodiknál!
 */
 
-bool comparison(int &value1) {
+int comparison() {
     int n1;
     int n2;
 
@@ -42,18 +42,12 @@ bool comparison(int &value1) {
     cin >> n1 >> n2;
 
     if (n1 > n2) {
-        value1 = 1;
-        return true;
+        return 1;
     }
     if (n1 < n2) {
-        value1 = -1;
-        return true;
+        return -1;
     }
-    if (n1 == n2) {
-        value1 = 0;
-        return true;
-    }
-    return false;
+    return 0;
 }
 
 void comp_array() {

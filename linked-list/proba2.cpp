@@ -13,13 +13,6 @@ Write a function, linkedListValues, that takes in the head of a linked list as a
 The function should return an array containing all values of the nodes in the linked list.
 */
 vector<int> linkedListValues(const Node &head) {
-    vector<int> result;
-    const Node *current = &head;
-    while (current != nullptr) {
-        result.push_back(current->value);
-        current = current->next;
-    }
-    return result;
 };
 
 /*
@@ -27,13 +20,6 @@ vector<int> linkedListValues(const Node &head) {
  *The function should return the total sum of all values in the linked list.
  */
 int sumList(const Node *head) {
-    int sum = 0;
-    const Node *current = head;
-    while (current != nullptr) {
-        sum += current->value;
-        current = current->next;
-    }
-    return sum;
 }
 
 /*
@@ -41,14 +27,6 @@ int sumList(const Node *head) {
 *The function should return a boolean indicating whether or not the linked list contains the target.
 */
 bool linkedListFind(const Node &head, int target) {
-    const Node *current = &head;
-    while (current != nullptr) {
-        if (target == current->value) {
-            return true;
-        }
-        current = current->next;
-    }
-    return false;
 }
 
 /*
@@ -57,16 +35,6 @@ bool linkedListFind(const Node &head, int target) {
 If there is no node at the given index, then return -1.
 */
 int getNodeValue(const Node &head, int index) {
-    const Node *current = &head;
-    int i = 1;
-    while (current != nullptr) {
-        if (i == index) {
-            return current->value;
-        }
-        current = current->next;
-        i++;
-    }
-    return -1;
 }
 
 /*
@@ -75,15 +43,6 @@ int getNodeValue(const Node &head, int index) {
 You may assume that the input list is non-empty.
 */
 bool isUnivalueList(const Node &head) {
-    const Node *current = &head;
-    int save = current->value;
-    while (current != nullptr) {
-        if (current->value != save) {
-            return false;
-        }
-        current = current->next;
-    }
-    return true;
 }
 
 

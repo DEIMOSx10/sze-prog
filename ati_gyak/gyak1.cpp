@@ -29,16 +29,15 @@ string uncompress(const string &input) {
 }
 
 
-
 string compress(const string &input) {
     string result;
 
-     /*
-     *1. azonos karakterig nézem a stringet
-     *2. szamlalo letrehozasa
-     *2. elmentem, hogy hány azonos karakter volt majd tovabblepek a for ciklusban
-     *3. az adott mennyiségű karaktert hozzafuzom a resulthoz
-     */
+    /*
+    *1. azonos karakterig nézem a stringet
+    *2. szamlalo letrehozasa
+    *2. elmentem, hogy hány azonos karakter volt majd tovabblepek a for ciklusban
+    *3. az adott mennyiségű karaktert hozzafuzom a resulthoz
+    */
     int szamlalo = 1;
     char betu = input[0];
     for (int i = 1; i < input.length(); ++i) {

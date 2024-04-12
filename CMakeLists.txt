@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.28)
 project(sze_prog)
 
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(sze_prog main.cpp)
 add_executable(gyak1 gyakorlatok/gyak1.cpp)
@@ -17,3 +17,8 @@ add_executable(gyak8 gyakorlatok/gyak8.cpp)
 add_executable(atigyak1 ati_gyak/gyak1.cpp)
 add_executable(atigyak2 ati_gyak/gyak2.cpp)
 add_executable(atigyak3 ati_gyak/gyak3.cpp)
+add_executable(vGyak1 vizsgaGyak/vGyak1.cpp)
+add_executable(vGyak2 vizsgaGyak/vGyak2.cpp)
+add_executable(vGyak3 vizsgaGyak/vGyak3.cpp)
+add_executable(F1 vizsgaGyak/2020.majus.14/F1.cpp)
+add_executable(F2 vizsgaGyak/2020.majus.14/F2.cpp)

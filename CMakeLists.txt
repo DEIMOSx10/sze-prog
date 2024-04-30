@@ -27,3 +27,4 @@ add_executable(21F1 vizsgaGyak/2020.majus.21/F1.cpp
 add_executable(21F5 vizsgaGyak/2020.majus.21/F5.cpp)
 add_executable(M28F1 vizsgaGyak/2020.majus.28/F1.cpp)
 add_executable(M28F2 vizsgaGyak/2020.majus.28/F2.cpp)
+add_executable(J4F1 vizsgaGyak/2020.junius.4/F1.cpp)

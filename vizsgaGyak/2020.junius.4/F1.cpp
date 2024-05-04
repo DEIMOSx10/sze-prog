@@ -9,6 +9,11 @@ struct Lakas {
     unsigned int ar; // Meghirdetett eladasi ar Ft-ban
 };
 
+bool sorter(Lakas &lhs, Lakas &rhs) {
+    double price = static_cast<double>(lhs.ar) / lhs.terulet;
+    double pricerhs = static_cast<double>(rhs.ar) / rhs.terulet;
+    return price < pricerhs;
+}
 
 
 bool sorter(Lakas &lhs, Lakas &rhs) {

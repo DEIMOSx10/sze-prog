@@ -1,12 +1,15 @@
 #include <iostream>
 
+
 using namespace std;
 
 int binTizesbe(string n)
 {
     cout << n << " -- ";
-    return -1;
+    int i = std::stoi(n, nullptr, 2);
+    return i;
 }
+
 
 int main() {
 

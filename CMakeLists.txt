@@ -31,7 +31,18 @@ add_executable(M28F2 vizsgaGyak/2020.majus.28/F2.cpp)
 add_executable(J4F1 vizsgaGyak/2020.junius.4/F1.cpp)
 add_executable(20F1JUN11 vizsgaGyak/2020.jun.11/F1.cpp
         vizsgaGyak/2020.jun.11/F2.cpp
-        vizsgaGyak/2020.jun.11/F4.cpp)
+        vizsgaGyak/2020.jun.11/F4.cpp
+        vizsgaGyak/2020.junius.4/F2.cpp
+        vizsgaGyak/2020.junius.18/F1.cpp
+        vizsgaGyak/2020.junius.18/F2.cpp
+        vizsgaGyak/2020.junius.18/F3.cpp
+        vizsgaGyak/2020.junius.18/F5.cpp
+        vizsgaGyak/2020.junius.18/F4.cpp)
 add_executable(20F2JUN11 vizsgaGyak/2020.jun.11/F2.cpp)
 add_executable(20F3JUN11 vizsgaGyak/2020.jun.11/F3.cpp)
 add_executable(20F4JUN11 vizsgaGyak/2020.jun.11/F4.cpp)
+add_executable(JUN18F1 vizsgaGyak/2020.junius.18/F1.cpp)
+add_executable(JUN18F2 vizsgaGyak/2020.junius.18/F2.cpp)
+add_executable(JUN18F3 vizsgaGyak/2020.junius.18/F3.cpp)
+add_executable(JUN18F5 vizsgaGyak/2020.junius.18/F5.cpp)
+add_executable(JUN18F4 vizsgaGyak/2020.junius.18/F4.cpp)

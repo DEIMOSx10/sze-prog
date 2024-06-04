@@ -1,21 +1,25 @@
 #include <iostream>
 #include <algorithm>
+#include <set>
 
 
 using namespace std;
 
 void charCounter(std::string str, int n) {
-    for (int i = 0; i < str.length(); ++i) {
+    set<char> myset;
+    for (auto i = 0; i < str.length(); ++i) {
         str[i] = tolower(str[i]);
-
-        int s = count(str.begin(), str.end(), str[i]);
+    }
+    for (auto i = 0; i < str.length(); ++i) {
+        unsigned int s = count(str.begin(), str.end(), str[i]);
 
         if(s == n) {
-            cout << str[i] << " ";
+            myset.insert(str[i]);
         }
     }
-
-
+    for (auto mychar: myset) {
+        cout << mychar << " ";
+    }
 }
 
 int main() {

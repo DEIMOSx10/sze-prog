@@ -37,7 +37,8 @@ add_executable(20F1JUN11 vizsgaGyak/2020.jun.11/F1.cpp
         vizsgaGyak/2020.junius.18/F2.cpp
         vizsgaGyak/2020.junius.18/F3.cpp
         vizsgaGyak/2020.junius.18/F5.cpp
-        vizsgaGyak/2020.junius.18/F4.cpp)
+        vizsgaGyak/2020.junius.18/F4.cpp
+        vizsgaGyak/UJ_minta_vizsgak_STR/F2.cpp)
 add_executable(20F2JUN11 vizsgaGyak/2020.jun.11/F2.cpp)
 add_executable(20F3JUN11 vizsgaGyak/2020.jun.11/F3.cpp)
 add_executable(20F4JUN11 vizsgaGyak/2020.jun.11/F4.cpp)
@@ -46,3 +47,8 @@ add_executable(JUN18F2 vizsgaGyak/2020.junius.18/F2.cpp)
 add_executable(JUN18F3 vizsgaGyak/2020.junius.18/F3.cpp)
 add_executable(JUN18F5 vizsgaGyak/2020.junius.18/F5.cpp)
 add_executable(JUN18F4 vizsgaGyak/2020.junius.18/F4.cpp)
+add_executable(UJF2STR vizsgaGyak/UJ_minta_vizsgak_STR/F2.cpp)
+add_executable(UJF6STR vizsgaGyak/UJ_minta_vizsgak_STR/F6.cpp)
+add_executable(UJF7STR vizsgaGyak/UJ_minta_vizsgak_STR/F7.cpp)
+add_executable(UJF16STR vizsgaGyak/UJ_minta_vizsgak_STR/F16.cpp)
+add_executable(UJF21STR vizsgaGyak/UJ_minta_vizsgak_STR/F21.cpp)
